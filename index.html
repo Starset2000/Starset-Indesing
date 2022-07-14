@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- no te olvides de normalize -->
+    <title>Starset Indesing</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <!-- iconos de google fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,1,200" />
+    <!-- mis estilos -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header data-aos="flip-up">
+        <div class="contenedor dflex">
+            <h1 class="logo"> Starset Indesing </h1>
+            <nav>
+                <ul class="dflex">
+                    <li>
+                        <a href="index.html"> Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#Portafolio"> Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#Acerca"> Acerca</a>
+                    </li>
+                    <li>
+                        <a href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section id="Inicio">
+        <div class="contenedor">
+
+
+            <h2>Inicio</h2>
+            <h3>Artista gráfico - Diseñador web - Ilustrador</h3>
+
+            <p>Hola que tal, mi nombre es Rodrigo Flores Suarez y aca les dejo unos trabajos
+                 que eleji para compartirlos con todos ustedes.
+                 Espero sea de su agrado para seguir apoyando al estudio..</p>
+
+            <blockquote>
+                <p>Si gustas hablar con nosotros solo envianos un e-mail y estaremos en contacto!.</p>
+            </blockquote>
+
+            <a href="#Contacto" class="boton">Click aqui
+                <span class="material-symbols-outlined">
+                    mail
+                </span>
+            </a>
+
+
+        </div>
+    </section>
+
+    <section id="parte2">
+        <div class="contenedor">
+
+
+
+
+            <h2>Ademas...</h2>
+
+            <p>Starset Indesing es una pagina gratuita creado por Rodrigo Flores. El servicio incluye los archivos fuente completos como HTML, CSS y JavaScript,PSD,AI,Indesing, así como hojas de estilo SASS opcionales para una fácil personalización.
+                 </p>
+
+            <p>Puede hablarnos sobre lo que quiere realizar de forma personalizada para sus diseños,
+                 cambiaremos de forma radical su aspecto de empresa para que sea reconocido(a) de la mejor manera posible...
+            </p>
+
+
+
+        </div>
+
+
+    </section>
+
+    <section id="Portafolio">
+        <div class="contenedor">
+            <h2>Portafolio</h2>
+            <p>Para comenzar, es necesario reconocer la diferencia esencial entre el arte y el Diseño Gráfico.
+                El arte es un proceso  creativo cuyo  fin último es la pieza en si misma, la o el artista se
+                 fina sus propias metas.  En tanto, en el área del Diseño Gráfico siempre se tiene que responder
+                  a unas determinadas necesidades. Estas necesidades pueden ser las del cliente, las del público
+                   o la/el usuaria/o final.</p>
+            <div class="galeria">
+                <figure>
+                    <a data-fancybox="img" href="img/1.jpg">
+                        <img src="img/1.jpg" alt="1">
+                    </a>
+                    <figcaption>Fotografiar </figcaption>
+                </figure>
+                <figure>
+                    <a data-fancybox="img" href="img/2.jpg">
+                    <img src="img/2.jpg" alt="2">
+                    </a>
+                    <figcaption>Inspirar</figcaption>
+                </figure>
+                <figure>
+                    <a data-fancybox="img" href="img/3.jpg">
+                    <img src="img/3.jpg" alt="3">
+                    </a>
+                    <figcaption>Soñar</figcaption>
+                </figure>
+                <figure>
+                    <a data-fancybox="img" href="img/4.jpg">
+                    <img src="img/4.jpg" alt="4">
+                    </a>
+                    <figcaption>Animar</figcaption>
+                </figure>
+                <figure>
+                    <a data-fancybox="img" href="img/5.jpg">
+                    <img src="img/5.jpg" alt="5">
+                    </a>
+                    <figcaption>Comunicar</figcaption>
+                </figure>
+                <figure>
+                    <a data-fancybox="img" href="img/6.jpg">
+                    <img src="img/6.jpg" alt="6">
+                    </a>
+                    <figcaption>Imaginar</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- #contact>.contenedor y luego enter se activa emmet plugin -->
+        <section id="Contacto">
+            <div id="contact">
+                <div class="contenedor">
+                    <h2>Contactanos para mas informacion!</h2>
+                    <h3>Complete su informacion personal</h3>
+                    <form action="enviar-form.php" method="post">
+                        <!-- la fila o row -->
+                        <div class="form-input">
+                            <div class="campos">
+                                <label for="full-name">Nombre y Apellido*:</label>
+                                <input type="text" id="full-name" placeholder="completar" required>
+                            </div>
+                            <div class="campos">
+                                <label for="e-mail">E-mail*:</label>
+                                <input type="email" id="e-mail" placeholder="completar" required>
+                            </div>
+                            <div class="campos">
+                                <label for="select-services">Seleccionar servicio</label>
+                                <select id="select-services">
+                                    <!-- multiple para varios ìtems
+                            a seleccionar -->
+                                    <option value="no-selection ">Sin Seleccion</option>
+                                    <option value="character-design">Diseño Web</option>
+                                    <option value="concept-art">Diseño Editorial</option>
+                                    <option value="illustration">ilustracion</option>
+                                    <option value="twitch-graphic">Anuncio</option>
+                                    <option value="reel-design">Marcas</option>
+                                    <option value="motion-graphic">Motion Graphic</option>
+                                    <option value="another">Otros</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="campos">
+                            <label for="your-message">Descripcion del motivo:</label>
+                            <textarea id="your-message" cols="30" rows="10" placeholder="Your coment here.... (maxlength:300)"
+                                maxlength="300">
+                                       </textarea>
+                        </div>
+                        <button class="botonform" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div><!-- fin ir a contacto aqui irà el formulario -->
+        </section>
+
+
+
+
+        <section id="Acerca">
+            <h2>Acerca de Nosotros</h2>
+        <div class="fotos-textos">
+            
+            <div class="fotorama">
+                <img src="img/fase 1.jpg" alt="">
+                <img src="img/fase 2.jpg" alt="">
+            </div>
+            <div class="texto">
+                <h3>Redes</h3>
+                
+                    <ul>
+                        <li>rodrigo.flores@davinci.edu.ar.</li>
+                        <li>1151261235</li>
+                    </ul>
+                
+    
+                <h3>Seguinos en...</h3>
+                
+                
+                <ul>
+                    <li>
+                        <p>Starset.Indesing
+                            <a href="https://www.instagram.com/" target="new">
+                            <img src="img/instagram.png" alt="ig" width="24">
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+    
+                <ul>
+                    <li>
+                        <p>Starset Indesing
+                            <a href="https://www.facebook.com/" target="new">
+                            <img src="img/face.png" alt="ig" width="24">
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+    
+            </div>
+            <div class="fotorama">
+                <img src="img/fase 3.jpg" alt="">
+                <img src="img/fase 4.jpg" alt="">
+            </div>
+            <div class="texto">
+
+                    <h3>Programas que manejo</h3>
+
+            
+
+                    <ul>
+                        <li>Ilustrator</li>
+                        <li>Photoshop</li>
+                        <li>After Effects</li>
+                        <li>Visual Studio Code</li>
+                        <li>Indesign</li>
+                    </ul>
+            
+        </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="contenedor">
+            <p>&copy; copyright - 2022 - Starset Indesing </p>
+
+        </div>
+    </footer>
+
+
+    <!--fontawesome-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
